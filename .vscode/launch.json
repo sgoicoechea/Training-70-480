@@ -1,0 +1,15 @@
+{
+    // Utilizar IntelliSense para aprender acerca de los posibles atributos.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos 
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Depurar en Chrome",
+            "url": "http://127.0.0.1:5500/Capitulo%203%20-%20JavaScrip/WebCalculator/CalculatorTest.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
