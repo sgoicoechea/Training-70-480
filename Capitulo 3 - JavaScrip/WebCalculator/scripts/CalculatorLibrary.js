@@ -13,10 +13,10 @@ var txtInput;
 var txtResult;
 function initialize() {
 
-    for (var i=0;i<10;i++){
+        for (var i=0;i<10;i++){
         var btn = document.getElementById('btn'+ i);    
         btn.addEventListener('click', numberClick, false);
-    } 
+    }
     txtInput = document.getElementById('txtInput');
     txtResult = document.getElementById("txtResult");
     document.getElementById("btnPlus").addEventListener("click",plusClick,false);
@@ -28,7 +28,7 @@ function initialize() {
 
 function numberClick() {
     txtInput.value = txtInput.value =='0' ? 
-        this.innerText : txtInput.value + this.innerText;
+    this.innerText : txtInput.value + this.innerText;
 }
 function plusClick(){
     txtResult.value = Number(txtResult.value) + Number(txtInput.value);
